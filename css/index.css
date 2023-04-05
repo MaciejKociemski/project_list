@@ -1,1 +1,83 @@
-.listType{background-color:#faebd7}
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext");
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: wheat;
+}
+
+.header {
+  text-align: center;
+  margin-top: 10px;
+  width: 1600px;
+  width: 100%;
+  border-bottom: 1px solid blue;
+}
+
+.nav {
+  width: 1400px;
+  margin-left: 20px;
+}
+
+.navType {
+  list-style: none;
+  font-size: 16px;
+  color: black;
+}
+
+.nav__link:hover {
+  color: darkblue;
+  text-shadow: 1px 1px 2px;
+}
+
+.nav__btn {
+  width: 150px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.nav__btn:hover {
+  background-color: lightblue;
+  box-shadow: 1px 1px 3px;
+}
+
+.tooltip {
+  color: black;
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  text-decoration: none;
+  font-size: 12px;
+  visibility: hidden; /* ukrywamy tekst tooltipu */
+  width: 300px;
+  background-color: chocolate;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 0;
+  /* ustalamy pozycję tooltipu */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 40px;
+  /* animacja pojawiania się tooltipu */
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible; /* pokazujemy tekst tooltipu po najechaniu kursorem na element */
+  opacity: 1;
+}
+
+.contact {
+  list-style: none;
+}
+
+.contact__mail {
+  color: gray;
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */
