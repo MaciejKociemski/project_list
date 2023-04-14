@@ -25,8 +25,8 @@ body {
 }
 
 .nav__link:hover {
-  color: darkblue;
-  text-shadow: 1px 1px 2px;
+  color: chocolate;
+  text-shadow: 1px 1px 5px;
 }
 
 .nav__btn {
@@ -37,8 +37,8 @@ body {
 }
 
 .nav__btn:hover {
-  background-color: lightblue;
-  box-shadow: 1px 1px 3px;
+  background-color: #d2691e;
+  box-shadow: 2px 2px 5px;
 }
 
 .tooltip {
