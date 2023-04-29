@@ -1,0 +1,37 @@
+
+.tooltip {color: black;
+			position: relative;
+			display: inline-block;
+			// border-bottom: 1px dotted black; /* dodajemy kreskę pod tooltipem */
+			}
+
+		.tooltip .tooltiptext {text-decoration: none;
+            font-size: 12px;
+			visibility: hidden; /* ukrywamy tekst tooltipu */
+           
+			width: 300px;
+			background-color:chocolate;
+			color: #fff;
+			text-align: center;
+			border-radius: 3px;
+			padding: 5px 0;
+
+			/* ustalamy pozycję tooltipu */
+			position: absolute;
+			z-index: 1;
+			bottom: 125%;
+			left: 50%;
+			margin-left: 40px;
+
+			/* animacja pojawiania się tooltipu */
+			opacity: 0;
+			transition: opacity 0.5s;
+			}
+
+		.tooltip:hover .tooltiptext {
+			visibility: visible; /* pokazujemy tekst tooltipu po najechaniu kursorem na element */
+			opacity: 1;
+			}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext');
+

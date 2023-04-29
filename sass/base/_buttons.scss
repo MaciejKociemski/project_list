@@ -1,0 +1,27 @@
+
+.nav{
+    width: 1400px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navType {
+    list-style: none;
+    font-size: 16px;
+    color:black;
+    padding: 60px;} 
+
+
+
+.nav__link:hover {
+    color: chocolate;text-shadow: 1px 1px 5px 
+}
+
+
+.nav__btn{
+    width: 150px;
+    background-color:white;
+    border:1px solid black;
+    border-radius: 5px;}
+
+.nav__btn:hover{background-color: #d2691e;box-shadow: 2px 2px 5px;}
