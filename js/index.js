@@ -23,3 +23,28 @@ setInterval(() => {
   }
 }, 1000);
 
+
+const heart = document.createElement("div");
+heart.innerHTML = "&#x2665;";
+heart.style.fontSize = "30px";
+heart.style.position = "fixed";
+heart.style.top = "0";
+heart.style.right = "0";
+heart.style.color = "brown";
+document.body.appendChild(heart);
+
+function beat() {
+  heart.animate([
+    { transform: "scale(1)" },
+    { transform: "scale(1.5)" },
+    { transform: "scale(1)" },
+    { transform: "scale(1.2)" },
+    { transform: "scale(1)" }
+  ], {
+    duration: 500,
+    easing: "ease-in-out"
+  });
+}
+
+setInterval(beat, 1000);
+
