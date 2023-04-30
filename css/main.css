@@ -256,11 +256,11 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: -webkit-transform 0.5s ease-in-out;
-  -o-transition: -o-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out, -o-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 5s ease-in-out;
+  transition: -webkit-transform 5s ease-in-out;
+  -o-transition: -o-transform 5s ease-in-out;
+  transition: transform 5s ease-in-out;
+  transition: transform 5s ease-in-out, -webkit-transform 5s ease-in-out, -o-transform 5s ease-in-out;
 }
 
 .slides img {
@@ -281,9 +281,9 @@ body {
   font-weight: bold;
   color: white;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  -webkit-animation: moveText 3s ease-in-out infinite alternate;
-       -o-animation: moveText 3s ease-in-out infinite alternate;
-          animation: moveText 3s ease-in-out infinite alternate;
+  -webkit-animation: moveText 5s ease-in-out infinite alternate;
+       -o-animation: moveText 5s ease-in-out infinite alternate;
+          animation: moveText 5s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes moveText {
