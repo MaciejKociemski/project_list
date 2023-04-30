@@ -9,3 +9,17 @@
 //   currentSlide = (currentSlide + 1) % images.length;
 //   images[currentSlide].classList.add('active');
 // }
+const slides = document.querySelector('.slides');
+const movingText = document.querySelector('.moving-text');
+
+let counter = 1;
+const size = slides.children[0].clientWidth;
+
+setInterval(() => {
+  slides.style.transform = `translateX(${-size * counter}px)`;
+  counter++;
+  if (counter === slides.children.length) {
+    counter = 0;
+  }
+}, 1000);
+
