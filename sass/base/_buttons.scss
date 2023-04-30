@@ -2,7 +2,7 @@
 .nav{
     width: 1400px;
     margin-left: 20px;
-    cursor: pointer;
+   
 }
 
 .navType {
@@ -22,6 +22,9 @@
     width: 150px;
     background-color:white;
     border:1px solid black;
-    border-radius: 5px;}
+    border-radius: 5px;
+ cursor: pointer;}
 
 .nav__btn:hover{background-color: #d2691e;box-shadow: 2px 2px 5px;}
+
+.spanPointer{cursor: pointer;}
