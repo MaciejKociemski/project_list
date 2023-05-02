@@ -26,12 +26,14 @@ setInterval(() => {
 
 const heart = document.createElement("div");
 heart.innerHTML = "&#x2665;";
-heart.style.fontSize = "30px";
+heart.style.fontSize = "20px";
 heart.style.position = "fixed";
-heart.style.top = "0";
-heart.style.right = "0";
+heart.classList.add("heart");
+// heart.style.top = "0";
+// heart.style.right = "0";
 heart.style.color = "brown";
-document.body.appendChild(heart);
+// document.body.appendChild(heart);
+document.querySelector(".header").appendChild(heart);
 
 function beat() {
   heart.animate([
