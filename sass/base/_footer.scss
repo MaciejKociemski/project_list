@@ -1,7 +1,7 @@
 
 .footer {width: 100%;
     max-width: 1200px;
-   
+
     background-color: chocolate;
 
 }
@@ -10,16 +10,16 @@
 
 .footer__border{display: flex;
     
-    // flex-wrap: wrap;
-    // margin: 0 auto;
-    // margin-left: 10px;
-    // text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-left: 10px;
+    text-align: center;
     
     
 }
 
 .footer__contact{
-    // display: flex;
+    display: flex;
     font-size: 14px;
     font-weight: 400;
     list-style: none;
