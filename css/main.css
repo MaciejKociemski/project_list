@@ -108,6 +108,7 @@ body {
 }
 
 .grid-item {
+  width: 150px;
   background-color: #ccc;
   margin-bottom: 10px;
 }
@@ -119,6 +120,7 @@ body {
 }
 
 .footer__border {
+  border: 1px solid red;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -150,9 +152,14 @@ body {
   }
 }
 .footer__mail {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-decoration: none;
   color: white;
   opacity: 80%;
+  margin-right: auto;
 }
 .footer__mail:hover, .footer__mail:focus {
   color: brown;

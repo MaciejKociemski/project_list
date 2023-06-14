@@ -8,8 +8,10 @@
 
 
 
-.footer__border{display: flex;
+.footer__border{
     
+    border: 1px solid red;
+    display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     margin-left: 10px;
@@ -32,9 +34,12 @@
 }}
 
 .footer__mail {
+    // margin: 0 auto;
+    display: flex;
     text-decoration: none;
     color: white;
     opacity: 80%;
+    margin-right: auto;
 
 
 &:hover,
