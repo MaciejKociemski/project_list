@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext");
 body {
   font-family: "Roboto", sans-serif;
-  background-color: wheat;
+  background-color: rgba(245, 222, 179, 0.5);
 }
 
 .gallery {
